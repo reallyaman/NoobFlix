@@ -39,12 +39,12 @@
     @apply min-h-screen relative bg-primary;
   }
 
-  header {
-    @apply sm:mt-10 mt-5;
+  .logo {
+    @apply max-w-lg mx-auto drop-shadow-md h-15 mt-10 ;
   }
 
-  header img {
-    @apply w-full max-w-lg h-auto object-contain mx-auto drop-shadow-md;
+  .hero {
+    @apply w-full max-w-lg  mx-auto drop-shadow-md ;
   }
 }
 
